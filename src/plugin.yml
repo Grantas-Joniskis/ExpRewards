@@ -1,0 +1,9 @@
+name: "ExpRewards"
+version: "1.0"
+main: "net.arsentic.exprewards.ExpRewards"
+description: "A rewards plugin based on players experience on the server!"
+commands:
+  experience:
+    description: "Opens GUI with rewards."
+    aliases:
+      - exp

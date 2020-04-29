@@ -1,0 +1,14 @@
+inventory-rows: 6
+claimed-lore: "&b&lClaimed!"
+exp-lvl-lore: "&fLvl&l %exp_lvl%"
+click-to-claim-lore: "&eClick to claim!"
+
+rewards:
+  10:
+    gui-item: "DIAMOND"
+    display-name: "&b&lDiamonds!"
+    description:
+      - '&fXP LVL: %exp_lvl%'
+      - 'Gives you a stack of diamonds!'
+    commands:
+      - 'give %player_name% diamond 64'
