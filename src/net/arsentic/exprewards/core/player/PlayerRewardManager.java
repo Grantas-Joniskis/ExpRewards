@@ -32,7 +32,7 @@ public class PlayerRewardManager {
                     playerReward.getGui().refresh();
                 }
             }
-        }, 0, 20 * ExpRewards.LEVEL_UP_MINS);
+        }, 0, 60 * 20 * ExpRewards.LEVEL_UP_MINS);
         onlineTasks.put(player.getUniqueId(), task);
     }
 

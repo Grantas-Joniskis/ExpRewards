@@ -25,10 +25,7 @@ public class ExpCommand implements CommandExecutor {
         PlayerReward playerReward = PlayerRewardManager.prw.getPlayerReward(player);
 
         if(args.length == 1) {
-            if(args[0].equalsIgnoreCase("reset")) {
-                playerReward.reset();
-                player.sendMessage("Your status has been reset!");
-            } else if(args[0].equalsIgnoreCase("reload") && player.hasPermission(ADMIN_PERM)) {
+            if(args[0].equalsIgnoreCase("reload") && player.hasPermission(ADMIN_PERM)) {
                 player.sendMessage(Chat.toColor(Chat.PREFFIX + "Reloading configs..."));
                 ExpRewards.getPlugin().reloadConfigs();
                 player.sendMessage(Chat.toColor(Chat.PREFFIX + "&aConfigs reloaded!"));

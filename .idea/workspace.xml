@@ -8,37 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f37a54ab-c6cc-4142-8aa2-0dff77a52ed4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ExpRewards_jar/ExpRewards.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ExpRewards_jar/ExpRewards.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/ExpRewards.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/ExpRewards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/commands/ExpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/commands/ExpCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/Reward.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/Reward.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/gui/GUIManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/gui/GUIManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/gui/RewardGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/gui/RewardGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerReward.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerReward.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerRewardManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerRewardManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerRewardManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerRewardManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/listeners/GUIListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/listeners/GUIListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/listeners/PlayerJoinListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/listeners/PlayerQuitListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/utils/chat/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/utils/chat/Chat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/utils/filesystem/ConfigFileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/utils/filesystem/ConfigFileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/rewards.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/rewards.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/ExpRewards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/ExpRewards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/commands/ExpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/commands/ExpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/Reward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/Reward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/gui/GUIManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/gui/GUIManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/gui/RewardGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/gui/RewardGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/player/PlayerReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/player/PlayerReward.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/player/PlayerRewardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/player/PlayerRewardManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/listeners/GUIListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/listeners/GUIListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/listeners/PlayerJoinListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/listeners/PlayerQuitListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/chat/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/chat/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/chat/Placeholder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/chat/Placeholder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/filesystem/ConfigFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/filesystem/ConfigFileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rewards.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/rewards.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +49,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="exprewards" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -195,11 +166,11 @@
     </state>
     <state x="485" y="107" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587803432582" />
     <state x="485" y="107" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588168951795" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588248952138">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588338771489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1536.824@0.0.1920.1040" timestamp="1588233391673" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588098547637" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588338771489" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588248952138" />
     <state x="2055" y="0" width="1549" height="1027" maximized="true" key="dock-window-1" timestamp="1588234223936">
       <screen x="1920" y="0" width="1920" height="1040" />
