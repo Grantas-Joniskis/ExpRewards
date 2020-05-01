@@ -6,11 +6,47 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f37a54ab-c6cc-4142-8aa2-0dff77a52ed4" name="Default Changelist" comment="" />
+    <list default="true" id="f37a54ab-c6cc-4142-8aa2-0dff77a52ed4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ExpRewards_jar/ExpRewards.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ExpRewards_jar/ExpRewards.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/ExpRewards.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/ExpRewards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/commands/ExpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/commands/ExpCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/Reward.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/Reward.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/gui/GUIManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/gui/GUIManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/gui/RewardGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/gui/RewardGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerReward.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerReward.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerRewardManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerRewardManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerRewardManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/core/player/PlayerRewardManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/listeners/GUIListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/listeners/GUIListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/listeners/PlayerJoinListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/listeners/PlayerQuitListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/utils/chat/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/utils/chat/Chat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/utils/filesystem/ConfigFileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/net/arsentic/exprewards/utils/filesystem/ConfigFileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpRewards/rewards.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpRewards/rewards.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/ExpRewards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/ExpRewards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/commands/ExpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/commands/ExpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/Reward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/Reward.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/gui/GUIManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/gui/GUIManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/gui/RewardGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/gui/RewardGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/player/PlayerReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/player/PlayerReward.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/player/PlayerRewardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/core/player/PlayerRewardManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/listeners/GUIListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/listeners/GUIListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/listeners/PlayerJoinListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/listeners/PlayerQuitListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/chat/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/chat/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/chat/Placeholder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/chat/Placeholder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/filesystem/ConfigFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arsentic/exprewards/utils/filesystem/ConfigFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rewards.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/rewards.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ExpRewards" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,6 +59,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://Grantas-Joniskis:nazaddos159@github.com/Grantas-Joniskis/ExpRewards.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1b1XrVG92k4NqwG7Lp7javwnZtu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,9 +80,10 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="exprewards" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -87,29 +131,41 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Notifications" timestamp="1588161281289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588161281289" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587803298705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587803298705" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1588081894054">
+    <state x="709" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1588161082052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="709" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588161082052" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1588234195079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040/3840.0.1536.824@0.0.1920.1040" timestamp="1588234195079" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588081894054" />
     <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587802376831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587802376831" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588078990591">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588161972705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588078990591" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588161972705" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1587803409906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -134,28 +190,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/3840.0.1536.824@0.0.1920.1040" timestamp="1587977595584" />
-    <state x="485" y="107" key="SettingsEditor" timestamp="1587803432582">
+    <state x="485" y="107" key="SettingsEditor" timestamp="1588168951795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="485" y="107" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587803432582" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588145951937">
+    <state x="485" y="107" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588168951795" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588248952138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1536.824@0.0.1920.1040" timestamp="1588060059092" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1536.824@0.0.1920.1040" timestamp="1588233391673" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588098547637" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588145951937" />
-    <state x="1937" y="0" width="1472" height="1027" maximized="true" key="dock-window-1" timestamp="1588147656789">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588248952138" />
+    <state x="2055" y="0" width="1549" height="1027" maximized="true" key="dock-window-1" timestamp="1588234223936">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2055" y="0" width="1549" height="1027" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040/3840.0.1536.824@0.0.1920.1040" timestamp="1588234223936" />
     <state x="1937" y="0" width="1472" height="1027" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588147656789" />
+    <state x="780" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1588161523934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="780" y="384" key="git4idea.rebase.GitRebaseDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588161523934" />
     <state x="342" y="140" key="new project wizard" timestamp="1588089025290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588089025290" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588146970672">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588319203396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587997377512" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588146970672" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588319203396" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588167638137" />
   </component>
 </project>

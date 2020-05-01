@@ -1,5 +1,6 @@
 package net.arsentic.exprewards.core.player;
 
+import net.arsentic.exprewards.core.gui.RewardGUI;
 import net.arsentic.exprewards.utils.filesystem.ConfigFile;
 import net.arsentic.exprewards.utils.filesystem.ConfigFileManager;
 import org.bukkit.entity.Player;
@@ -10,6 +11,7 @@ public class PlayerReward {
 
     private Player player;
     private ConfigFile configFile;
+    private RewardGUI gui;
     private int minutes;
 
     private Set<Integer> claimedRewards;
@@ -57,14 +59,18 @@ public class PlayerReward {
         availableRewards.remove(expLvl);
     }
 
-    public void removeClaimedReward() {
-
-    }
-
     public void reset() {
         this.minutes = 0;
         this.claimedRewards.clear();
         this.availableRewards.clear();
+    }
+
+    public void setGui(RewardGUI gui) {
+        this.gui = gui;
+    }
+
+    public RewardGUI getGui() {
+        return gui;
     }
 
     public void setAvailableRewards(Set<Integer> availableRewards) {

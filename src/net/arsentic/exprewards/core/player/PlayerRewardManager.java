@@ -2,6 +2,7 @@ package net.arsentic.exprewards.core.player;
 
 import net.arsentic.exprewards.ExpRewards;
 import net.arsentic.exprewards.core.Reward;
+import net.arsentic.exprewards.core.gui.RewardGUI;
 import net.arsentic.exprewards.utils.chat.Chat;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -23,10 +24,13 @@ public class PlayerRewardManager {
             @Override
             public void run() {
                 playerReward.countMinutes();
-                if(!ExpRewards.rewards.containsKey(playerReward.getMinutes())) return;
-                Reward reward = ExpRewards.rewards.get(playerReward.getMinutes());
-                playerReward.addAvailableReward(reward.getLevel());
-                player.sendMessage(Chat.toColor("&a&lYour reward is ready!"));
+                if(ExpRewards.rewards.containsKey(playerReward.getMinutes())) {
+                    Reward reward = ExpRewards.rewards.get(playerReward.getMinutes());
+                    playerReward.addAvailableReward(reward.getLevel());
+                    if (Chat.TO_WARN) player.sendMessage(Chat.toColor(Chat.GET_WARN_MESSAGE(player, reward)));
+                } if(player.getOpenInventory().getTopInventory().getHolder() instanceof RewardGUI){
+                    playerReward.getGui().refresh();
+                }
             }
         }, 0, 20 * ExpRewards.LEVEL_UP_MINS);
         onlineTasks.put(player.getUniqueId(), task);

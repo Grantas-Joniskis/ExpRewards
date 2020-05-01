@@ -1,2 +1,8 @@
-# Leveling up exp in minutes
+# Level up every x minutes
 level-up: 1
+# Inform player when reward is available (true/false)
+warn: true
+#warn message when reward gets available
+warn-message: "&e&l%player_name% your level %exp_lvl% reward is ready!"
+#Chat Prefix
+prefix: "&bExpRewards &7&l>> &f"

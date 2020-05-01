@@ -1,14 +1,47 @@
-inventory-rows: 6
+#MAX ROWS - 6. MIN ROWS - 2
+inventory-rows: 2
+#LORE WHEN REWARD IS CLAIMED.
 claimed-lore: "&b&lClaimed!"
-exp-lvl-lore: "&fLvl&l %exp_lvl%"
+#LORE WILL BE ADDED WHEN REWARD IS AVAILABLE TO CLAIM
 click-to-claim-lore: "&eClick to claim!"
 
 rewards:
   10:
     gui-item: "DIAMOND"
     display-name: "&b&lDiamonds!"
+    sound: "ENTITY_PLAYER_LEVELUP"
     description:
-      - '&fXP LVL: %exp_lvl%'
+      - '&fExperience - &b%exp_lvl%'
       - 'Gives you a stack of diamonds!'
     commands:
       - 'give %player_name% diamond 64'
+  15:
+    gui-item: "GOLD_BLOCK"
+    display-name: "&e&lBlocks Of Gold!"
+    sound: "ENTITY_PLAYER_LEVELUP"
+    description:
+      - '&eExperience - %exp_lvl%'
+      - '&fGet some gold blocks!'
+      - '&fMinutes left: %time_left%'
+    commands:
+      - 'give %player_name% gold_block 16'
+  30:
+    gui-item: "IRON_BLOCK"
+    display-name: "&f&lBlocks Of Iron!"
+    sound: "ENTITY_PLAYER_LEVELUP"
+    description:
+      - '&fExperience - %exp_lvl%'
+      - '&fGet some iron blocks!'
+      - '&fMinutes left: &e%time_left%'
+    commands:
+      - 'give %player_name% iron_block 16'
+  40:
+    gui-item: "GOLD_NUGGET"
+    display-name: "&6&lMoney!"
+    sound: "ENTITY_PLAYER_LEVELUP"
+    description:
+      - '&fExperience - %exp_lvl%'
+      - '&aGives you $1K'
+      - '&aMinutes left: &e%time_left%'
+    commands:
+      - 'eco give %player_name% 1000'

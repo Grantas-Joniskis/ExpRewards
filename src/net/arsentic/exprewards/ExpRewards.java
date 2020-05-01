@@ -5,8 +5,7 @@ import net.arsentic.exprewards.core.Reward;
 import net.arsentic.exprewards.core.player.PlayerReward;
 import net.arsentic.exprewards.core.player.PlayerRewardManager;
 import net.arsentic.exprewards.listeners.GUIListener;
-import net.arsentic.exprewards.listeners.PlayerJoinListener;
-import net.arsentic.exprewards.listeners.PlayerQuitListener;
+import net.arsentic.exprewards.listeners.JoinQuitListener;
 import net.arsentic.exprewards.utils.filesystem.ConfigFileManager;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -41,14 +40,17 @@ public class ExpRewards extends JavaPlugin {
     }
 
     public void registerListeners() {
-        plugin.getServer().getPluginManager().registerEvents(new PlayerJoinListener(), plugin);
-        plugin.getServer().getPluginManager().registerEvents(new PlayerQuitListener(), plugin);
+        plugin.getServer().getPluginManager().registerEvents(new JoinQuitListener(), plugin);
         plugin.getServer().getPluginManager().registerEvents(new GUIListener(), plugin);
     }
 
     private void loadConfigs() {
         ConfigFileManager.cfm.loadMainConfig();
-        ConfigFileManager.cfm.loadRewarsConfig();
+        try {
+            ConfigFileManager.cfm.loadRewardsConfig();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     private void registerCommands() {
@@ -75,6 +77,21 @@ public class ExpRewards extends JavaPlugin {
             playerReward.loadConfigFile();
             PlayerRewardManager.prw.startTask(player);
         }
+    }
+
+    public void reloadConfigs() {
+        rewards.clear();
+        loadConfigs();
+        sortRewards();
+        for(Player player : Bukkit.getOnlinePlayers()) {
+            ConfigFileManager.cfm.updatePlayerConfig(player);
+            PlayerRewardManager.prw.getPlayerReward(player).reset();
+            ConfigFileManager.cfm.loadPlayerConfig(player);
+        }
+    }
+
+    public void warn(String text) {
+        plugin.getLogger().warning(text);
     }
 
     public static ExpRewards getPlugin() {

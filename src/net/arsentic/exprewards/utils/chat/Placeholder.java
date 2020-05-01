@@ -10,6 +10,7 @@ public class Placeholder<T> {
 
     public static final Placeholder<Player> PLAYER_NAME = new Placeholder<>("%player_name%", Player.class, "getName");
     public static final Placeholder<Reward> EXP_LVL = new Placeholder<>("%exp_lvl%", Reward.class, "getLevel");
+    public static final Placeholder<Object> TIME_LEFT = new Placeholder<>("%time_left%", Object.class, "");
 
     private final String variable;
     private final Class<T> valueClass;
